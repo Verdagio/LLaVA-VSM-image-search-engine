@@ -1,0 +1,12 @@
+lxml
+selenium
+undetected-chromedriver
+fastapi
+uvicorn
+python-multipart
+Pillow
+nltk
+sentence-transformers
+pandas
+scikit-learn
+ollama

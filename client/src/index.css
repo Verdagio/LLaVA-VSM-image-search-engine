@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  color: #e2e8f0;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.bg-midnight-gradient {
+  background: linear-gradient(
+    153.47deg,
+    #020522 0%,
+    #260030 100%
+  );
+}
+
+.grid {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  grid-gap: 1em;
+}
+
+@media screen and (max-width: 1700px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
